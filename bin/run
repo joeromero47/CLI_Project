@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby 
+
+require_relative '../lib/RM_character_cli.rb'
+
+#CLI.new.run
