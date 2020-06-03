@@ -3,7 +3,7 @@
 require 'bundler/setup'
 Bundler.require(:default)
 
-require_relative "lib/api"
-require_relative "lib/cli"
-require_relative "lib/RM_Character"
+require_relative "./RM_Character_CLI/api"
+require_relative "./RM_Character_CLI/cli"
+require_relative "./RM_Character_CLI/RM_Character"
 

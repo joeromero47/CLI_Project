@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby 
 
+require 'open-uri'
+require 'net/http'
 require_relative '../lib/RM_character_cli.rb'
 
 Pry.start
